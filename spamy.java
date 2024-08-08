@@ -4,6 +4,7 @@ import java.awt.event.KeyEvent;
 public class spamy {
 
     public static void main(String[] args) throws Exception {
+        System.setProperty("java.awt.headless","false");
         Robot robot = new Robot();
         robot.setAutoDelay(100); // Set a delay between key presses (in milliseconds)
 
